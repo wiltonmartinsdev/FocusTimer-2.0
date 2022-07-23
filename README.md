@@ -1,6 +1,6 @@
 # FocusTimer-2.0-DarkMode
  
-- Este projeto consiste em desenvolver um temporizador.
+- Este projeto consiste em desenvolver um temporizador e alternar entre o tema light e dark mode.
 - Projeto proposto pelo programa de formação [Explorer](https://www.rocketseat.com.br/explorer) da [RocketSeat](https://www.rocketseat.com.br/).
 
 
@@ -13,14 +13,16 @@
 ## Funcionalidades
 
 - Visualização em tempo real.
-- Botão Play/Pause/Stop.
+- Temas light e dark mode.
+- Botão Play/Stop.
 - Botão Incrementar ou Decrementar em 5 Minutos o temporizador.
-- Botão Cards: Onde cada card quando clicado irá mudar de cor e emitir um som diferente de Floresta, Chuva, Cafeteria ou Lareira. 
+- Botão Cards: Onde cada card quando clicado irá mudar de cor e emitir um som diferente de Floresta, Chuva, Cafeteria ou Lareira.
+- Controle do volume do som de cada Card. 
 
 
 ## Stacks utilizada
 
-**Front-end:** HTML, CSS, JavaScript.
+**Front-end:** HTML, CSS e JavaScript.
 
 
 
@@ -34,8 +36,10 @@
 
 ## Status do Projeto
 
-De acordo com o que foi proposto para desenvolver o projeto o mesmo encontra-se finalizado.
+De acordo com o que foi proposto para desenvolver o projeto o mesmo encontra-se finalizado, mas podendo ser implementada novas funcionalidades.
+
 ## Aprendizados
+
 - A cada novo projeto proposto no [Explorer](https://www.rocketseat.com.br/explorer) sempre há um novo aprendizado, sempre aprimorando cada vez mais o conhecimento adquerido no programa.  
 
 - Nesse projeto aprendi sobre **modularização no JavaScript**, o **padrão factory** e **injeção de dependências**.
