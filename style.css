@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ffTimer: "Roboto", sans-serif;
+    --fsTimer: 13rem;
+
+    --bgDark: black;
+    --textColorDark: white;
+}
+
+/* ======================================================================= LIGHT MODE ======================================================================= */
+
+main {
+    width: 128rem;
+    height: 72rem;
+
+    position: relative;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19.2rem;
+}
+
+span {
+    font-family: var(--ffTimer);
+    font-size: var(--fsTimer);
+}
+
+button {
+    background-color: transparent;
+
+    border: none;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+#buttonControls {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ambientSounds {
+    display: grid;
+    grid-template-areas:
+        "A B"
+        "C D";
+
+    gap: 3.2rem;
+}
+
+button .forest {
+    grid-area: A;
+}
+
+button .rain {
+    grid-area: B;
+}
+
+button .coffeShop {
+    grid-area: C;
+}
+
+button .firePlace {
+    grid-area: D;
+}
+
+.buttonThemeControl {
+    position: absolute;
+
+    right: 0;
+
+    margin: 6rem 6rem 61.6rem 11.76rem;
+
+    display: flex;
+}
+
+.show svg path:nth-child(1) {
+    fill: #02799d;
+}
+
+.show svg path:nth-child(2) {
+    fill: #ffffff;
+}
+
+/* ======================================================================= DARK MODE ======================================================================= */
+
+main.darkMode {
+    background-color: var(--bgDark);
+    color: var(--textColorDark);
+}
+
+main.darkMode .show svg path:nth-child(1) {
+    fill: #29292e;
+}
+
+main.darkMode .show svg path:nth-child(2) {
+    fill: #ccc4c4;
+}
+
+main.darkMode #buttonControls button svg path {
+    fill: #ccc4c4;
+}
+
+main.darkMode .clickedDarkMode svg path:nth-child(1) {
+    fill: #0a3442;
+}
+
+main.darkMode .clickedDarkMode svg path:nth-child(2) {
+    fill: #ffffff;
+}
+
+/* ======================================================================= INPUT LIGHT MODE ======================================================================= */
+
+input.styleRange {
+    position: absolute;
+
+    -webkit-appearance: none;
+
+    width: 9rem;
+    height: 0.4rem;
+
+    background-color: black;
+    border-radius: 999.9rem;
+
+    margin: 11rem 2.4rem 2.4rem;
+}
+
+input.styleRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    background-color: black;
+
+    width: 1.6rem;
+    height: 1.6rem;
+
+    border-radius: 1.6rem;
+}
+
+input.inputClickedLightMode {
+    position: absolute;
+
+    -webkit-appearance: none;
+
+    width: 9rem;
+    height: 0.4rem;
+
+    background-color: white;
+    border-radius: 999.9rem;
+
+    margin: 11rem 2.4rem 2.4rem;
+}
+
+input.inputClickedLightMode::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    background-color: white;
+
+    width: 1.6rem;
+    height: 1.6rem;
+
+    border-radius: 1.6rem;
+}
+
+/* ======================================================================= INPUT DARK MODE ======================================================================= */
+
+input.inputDarkMode {
+    position: absolute;
+
+    -webkit-appearance: none;
+
+    width: 9rem;
+    height: 0.4rem;
+
+    background-color: white;
+    border-radius: 999.9rem;
+
+    margin: 11rem 2.4rem 2.4rem;
+}
+
+input.inputDarkMode::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    background-color: white;
+
+    width: 1.6rem;
+    height: 1.6rem;
+
+    border-radius: 1.6rem;
+}
