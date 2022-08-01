@@ -16,6 +16,10 @@ const Timer = ({ minutes, minutesDisplay, seconds, secondsDisplay }) => {
         updateDisplay(minutes, seconds);
     };
 
+    const pauseTimer = () => {
+        clearInterval(timerTimeOut);
+    };
+
     const countDown = () => {
         timerTimeOut = setTimeout(() => {
             let minutes = minutesDisplay.textContent;
@@ -37,7 +41,13 @@ const Timer = ({ minutes, minutesDisplay, seconds, secondsDisplay }) => {
         }, 1000);
     };
 
-    return { updateDisplay, updateMinutes, resetTimer, countDown };
+    return {
+        updateDisplay,
+        updateMinutes,
+        resetTimer,
+        pauseTimer,
+        countDown,
+    };
 };
 
 export default Timer;

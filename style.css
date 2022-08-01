@@ -35,6 +35,10 @@ span {
     font-size: var(--fsTimer);
 }
 
+.hide {
+    display: none;
+}
+
 button {
     background-color: transparent;
 

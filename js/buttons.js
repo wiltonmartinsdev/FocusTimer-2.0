@@ -2,6 +2,7 @@ import {
     minutesDisplay,
     secondsDisplay,
     buttonPlay,
+    buttonPause,
     buttonStop,
     buttonIncrease,
     buttonDecrease,
@@ -23,10 +24,21 @@ const Buttons = ({ timer, events, sounds }) => {
 
     buttonPlay.addEventListener("click", () => {
         timer.countDown();
+        buttonPlay.classList.add("hide");
+        buttonPause.classList.remove("hide");
+    });
+
+    buttonPause.addEventListener("click", () => {
+        timer.pauseTimer();
+
+        buttonPause.classList.add("hide");
+        buttonPlay.classList.remove("hide");
     });
 
     buttonStop.addEventListener("click", () => {
         timer.resetTimer();
+        buttonPause.classList.add("hide");
+        buttonPlay.classList.remove("hide");
     });
 
     buttonIncrease.addEventListener("click", () => {
