@@ -8,7 +8,7 @@
 
 - Visualização em tempo real.
 - Temas light e dark mode.
-- Botão Play/Stop.
+- Botão Play/Pause/Stop.
 - Botão Incrementar ou Decrementar em 5 Minutos o temporizador.
 - Botão Cards: Onde cada card quando clicado irá mudar de cor e emitir um som diferente de Floresta, Chuva, Cafeteria ou Lareira.
 - Controle do volume do som de cada Card. 
