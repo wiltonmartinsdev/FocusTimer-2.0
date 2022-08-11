@@ -35,4 +35,4 @@ De acordo com o que foi proposto para desenvolver o projeto o mesmo encontra-se 
 
 - Nesse projeto aprendi sobre **modularização no JavaScript**, o **padrão factory** e **injeção de dependências**.
 
-- Tive dificuldades para entender a lógica do temporizador, o padrão factory e injeção de dependências, mas praticando muito e revendo as aulas e realizando este projeto conseguir entender sua usabilidade e como aplicá-lo.
+- Tive dificuldades para entender a lógica do temporizador, o padrão factory e injeção de dependências, mas praticando muito e revendo as aulas e realizando este projeto consegui entender sua usabilidade e como aplicá-lo.
