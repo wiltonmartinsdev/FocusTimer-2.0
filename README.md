@@ -3,6 +3,10 @@
 - Este projeto consiste em desenvolver um temporizador e alternar entre o tema light e dark mode.
 - Projeto proposto pelo programa de formação [Explorer](https://www.rocketseat.com.br/explorer) da [RocketSeat](https://www.rocketseat.com.br/).
 
+# Demonstração
+
+<img src="https://github.com/wiltonmartinsdev/FocusTimer-2.0/blob/main/assets/focusTimerDark.gif" />
+
 
 ## Funcionalidades
 
